@@ -1,4 +1,4 @@
-#include &quot;main.h&quot;
+#include <main.h>
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
@@ -246,4 +246,3 @@ int write_pointer(char buffer[], int ind, int length,
 	if (extra_c)
 		buffer[--ind] = extra_c;
 	return (write(1, &amp;buffer[ind], BUFF_SIZE - ind - 1));
-}
